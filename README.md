@@ -12,19 +12,31 @@
 ### Prerequisites
 
 使用的无人机是我们自己设计完成
-#####核心硬件
+
+##### 核心硬件
+
 匿名光流
+
 匿名拓空者飞控
+
 在板控制电脑：Up Board
+
 遥控器：乐迪遥控器
+
 Up Board系统: ubilinux或者ubuntu
+
 Opencv版本：4.1.1
+
 python版本：3.6
 
 ![Up Board](https://github.com/Unrivaled2/quadrotor/blob/master/Up%20Board.jpg) 
+
 ![光流](https://github.com/Unrivaled2/quadrotor/blob/master/%E5%85%89%E6%B5%81.jpg)
+
 ![摄像头](https://github.com/Unrivaled2/quadrotor/blob/master/%E6%91%84%E5%83%8F%E5%A4%B4.jpg)
+
 ![比赛框](https://github.com/Unrivaled2/quadrotor/blob/master/%E6%AF%94%E8%B5%9B%E6%A1%86.jpg)
+
 ![飞控](https://github.com/Unrivaled2/quadrotor/blob/master/%E9%A3%9E%E6%8E%A7.jpg)
 
 
@@ -74,16 +86,16 @@ python版本：3.6
 
 1. issue:飞机飞行不稳，一直飘
 
-  解决：确定遥控器是否将飞行模式设置成定点（排除飞行模式不正确），重新拔插电源（排除串口缓存指令影响），换一个地面试一下（排除因为光流采集地面
+    解决：确定遥控器是否将飞行模式设置成定点（排除飞行模式不正确），重新拔插电源（排除串口缓存指令影响），换一个地面试一下（排除因为光流采集地面
   图片无差别造成的影响），如果依然不行，重新进行加速度计（一定在水平地面上），罗盘（在水平地面上），光流校准（在水平地面上，光流安装在飞机上校准）
   
 2. 个别螺旋桨转速不稳
 
-  解决：用扎带将连接对应电调和飞控的信号线绑死，排除因为信号不稳定的原因
+   解决：用扎带将连接对应电调和飞控的信号线绑死，排除因为信号不稳定的原因
   
 3. 飞机起飞即飘忽不定
   
-  解决：飞机起飞时的姿态就是不稳的，调整起飞姿态
+    解决：飞机起飞时的姿态就是不稳的，调整起飞姿态
   
 
 ## Authors
